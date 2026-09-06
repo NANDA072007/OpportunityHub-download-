@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Account Deletion Request — OpportunityHub</title>
+  <meta name="description" content="Public Account Deletion Request and Data Privacy Information for OpportunityHub users.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-gradient: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+      --error: #ef4444;
+      --border: #334155;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 840px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 3rem 2.5rem;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+    }
+    header {
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      background: var(--accent-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.5rem;
+    }
+    .meta {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+    }
+    p, ul, ol {
+      color: #cbd5e1;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+    ul, ol {
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    .badge-error {
+      background-color: rgba(239, 68, 68, 0.2);
+      color: #fca5a5;
+      border: 1px solid var(--error);
+      padding: 0.75rem 1rem;
+      border-radius: 8px;
+      margin-bottom: 1.5rem;
+      font-size: 0.9rem;
+    }
+    .step-box {
+      background-color: rgba(51, 65, 85, 0.5);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.5rem;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    @media (max-width: 640px) {
+      .container { padding: 1.5rem 1.25rem; }
+      h1 { font-size: 1.75rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>OpportunityHub Account Deletion Request</h1>
+      <p class="meta">Developer / Publisher: NANDA072007 | OpportunityHub Team</p>
+    </header>
+
+    <main>
+      <div class="badge-error">
+        <strong>Warning:</strong> Account deletion is permanent and immediate. Once your account is deleted, your profile, bookmarked opportunities, resume files, and custom alerts cannot be restored.
+      </div>
+
+      <h2>1. How to Request Account Deletion</h2>
+
+      <h3>Option A: In-App Account Deletion (Recommended)</h3>
+      <div class="step-box">
+        <ol>
+          <li>Open the <strong>OpportunityHub</strong> app on your device and ensure you are logged in.</li>
+          <li>Navigate to the <strong>Profile ("Me")</strong> tab on the bottom navigation bar.</li>
+          <li>Tap the <strong>Notification Settings</strong> icon (or Settings menu).</li>
+          <li>Scroll down to the bottom of the page and tap <strong>DELETE ACCOUNT PERMANENTLY</strong>.</li>
+          <li>Confirm your choice by tapping <strong>DELETE PERMANENTLY</strong> in the warning dialog.</li>
+        </ol>
+        <p><em>Your account and all associated server/local data will be deleted instantly.</em></p>
+      </div>
+
+      <h3>Option B: Web / Email Request (If App is Uninstalled or Inaccessible)</h3>
+      <div class="step-box">
+        <p>If you no longer have access to the OpportunityHub app, you may submit a manual account deletion request:</p>
+        <ul>
+          <li><strong>Email Request:</strong> Send an email directly to the developer at <a href="mailto:nandasunil273@gmail.com">nandasunil273@gmail.com</a> with the subject line <code>"Account Deletion Request"</code> from your registered email address.</li>
+        </ul>
+        <p>Manual web requests are verified and processed within 48 hours.</p>
+      </div>
+
+      <h2>2. Categories of Data Deleted Permanently</h2>
+      <p>When an account is deleted, the following data categories are permanently removed from our production servers and local storage:</p>
+      <ul>
+        <li><strong>Authentication Account:</strong> Supabase Auth account ID, login email, password hashes, and OAuth tokens.</li>
+        <li><strong>User Profile Information:</strong> Full name, avatar URL, educational branch, degree, graduation year, and career category.</li>
+        <li><strong>Preferences & Settings:</strong> Job notification toggles, UI theme choices, location filters, and salary target preferences.</li>
+        <li><strong>Saved Content & Tracking:</strong> All bookmarked opportunities and tracked job applications.</li>
+        <li><strong>Custom Alerts & Devices:</strong> Saved alert filter rules and FCM device push notification registration tokens.</li>
+        <li><strong>Uploaded Files & Resumes:</strong> All resume PDF files stored in private server storage (resumes bucket) and local device resume metadata.</li>
+        <li><strong>Behavioral Logs & Telemetry:</strong> Skill proficiency records, interaction history, and recommendation engine signal vectors.</li>
+        <li><strong>Local Cache:</strong> All local Hive data boxes stored on your mobile device.</li>
+      </ul>
+
+      <h2>3. Data Retained & Retention Policies</h2>
+      <p>We believe in minimal data retention. The following non-identifiable items are handled as follows:</p>
+      <ul>
+        <li><strong>Anonymized Telemetry:</strong> Aggregated system delivery metrics are decoupled from your identity by setting the <code>user_id</code> field to <code>NULL</code>. No personal data remains attached to these events.</li>
+        <li><strong>Third-Party Applications:</strong> Any job applications or resumes submitted directly to external employer ATS portals via external outbound links are governed by those respective third-party employer policies and are not stored by OpportunityHub.</li>
+      </ul>
+
+      <h2>4. Data Retention Period</h2>
+      <p>Account deletion is executed <strong>immediately</strong> upon confirmation in the app or within <strong>48 hours</strong> for email/web requests. We do not maintain delayed backup retention windows for deleted accounts.</p>
+
+      <h2>5. Contact & Support</h2>
+      <p>For any privacy inquiries or assistance with account deletion, please contact <a href="mailto:nandasunil273@gmail.com">nandasunil273@gmail.com</a>.</p>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 OpportunityHub. Open Source & Community Driven Platform.</p>
+    </footer>
+  </div>
+</body>
+</html>
