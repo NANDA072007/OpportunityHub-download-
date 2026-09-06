@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy — OpportunityHub</title>
+  <meta name="description" content="Privacy Policy for OpportunityHub mobile app and opportunity discovery platform.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-gradient: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+      --border: #334155;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 840px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 3rem 2.5rem;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+    }
+    header {
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 800;
+      background: var(--accent-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.5rem;
+    }
+    .meta {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+    h2 {
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-top: 2rem;
+      margin-bottom: 0.75rem;
+    }
+    p, ul {
+      color: #cbd5e1;
+      margin-bottom: 1rem;
+      font-size: 0.95rem;
+    }
+    ul {
+      padding-left: 1.5rem;
+    }
+    li {
+      margin-bottom: 0.5rem;
+    }
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    @media (max-width: 640px) {
+      .container { padding: 1.5rem 1.25rem; }
+      h1 { font-size: 1.75rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>OpportunityHub Privacy Policy</h1>
+      <p class="meta">Effective Date: September 6, 2026 | Application Version: 1.2.0+</p>
+    </header>
+
+    <main>
+      <h2>1. Introduction</h2>
+      <p>Welcome to <strong>OpportunityHub</strong> ("we", "our", or "us"). OpportunityHub is an AI-driven, zero-dead-link opportunity discovery platform designed to help students, graduates, and job seekers discover verified internships, private sector jobs, government research notifications, hackathons, freelance gigs, and merit scholarships.</p>
+      <p>We respect your privacy and are committed to protecting the personal data you share with us. This Privacy Policy explains how we collect, use, store, disclose, and safeguard your information when you use our mobile application and services.</p>
+
+      <h2>2. Information We Collect</h2>
+      <p><strong>A. Information You Provide Directly</strong></p>
+      <ul>
+        <li><strong>Account Credentials:</strong> Name, email address, and authentication credentials via Supabase Auth.</li>
+        <li><strong>Profile & Education Data:</strong> Degree, field of study (branch), graduation year, skills, and career interests.</li>
+        <li><strong>Location Preferences:</strong> Preferred work locations (Tier-3 cities like Anantapur, regional hubs, metros, or Remote).</li>
+        <li><strong>Saved Items:</strong> Bookmarked opportunities and custom search alert filters.</li>
+      </ul>
+      <p><strong>B. Information Collected Automatically</strong></p>
+      <ul>
+        <li><strong>Device Information:</strong> OS version (Android/iOS), app version, device model.</li>
+        <li><strong>App Telemetry:</strong> Crash logs and performance metrics used solely for app stability.</li>
+        <li><strong>Push Notification Tokens:</strong> Firebase Cloud Messaging (FCM) tokens for opt-in job alerts.</li>
+      </ul>
+
+      <h2>3. How We Use Your Information</h2>
+      <ul>
+        <li>To deliver a personalized opportunity feed matching your skills and location preferences.</li>
+        <li>To push real-time alerts when new matching internships, jobs, or scholarships are ingested.</li>
+        <li>To store your recent feed data locally via Hive storage for offline access.</li>
+        <li>To maintain app security, verify apply link integrity, and detect bugs.</li>
+      </ul>
+
+      <h2>4. Third-Party Services & Data Processors</h2>
+      <p>We integrate with trusted service providers complying with modern security standards:</p>
+      <ul>
+        <li><strong>Supabase:</strong> Database hosting, authentication, and encrypted data storage.</li>
+        <li><strong>Firebase Cloud Messaging (FCM):</strong> Push notification delivery.</li>
+        <li><strong>GitHub:</strong> Codebase repository and public release distribution.</li>
+      </ul>
+      <p><em>We do NOT sell, rent, trade, or monetize your personal data to third-party advertisers.</em></p>
+
+      <h2>5. Data Storage and Security</h2>
+      <p>All data transmitted between the mobile application and our servers is encrypted in transit using standard TLS/HTTPS. Production databases enforce Row-Level Security (RLS) policies.</p>
+
+      <h2>6. Children's Privacy</h2>
+      <p>OpportunityHub is intended for students and job seekers aged 13 and above. We do not knowingly collect personal information from children under 13.</p>
+
+      <h2>7. Your Data Rights & Account Deletion</h2>
+      <p>You can view and update your profile directly inside app settings. You may permanently delete your account and associated data at any time in app settings (Notification Settings &rarr; Delete Account Permanently) or by visiting our dedicated <a href="delete_account.html" target="_blank">Account Deletion Page</a>.</p>
+
+      <h2>8. Contact Us</h2>
+      <p>For questions or privacy concerns, please contact the developer via email at <a href="mailto:nandasunil273@gmail.com">nandasunil273@gmail.com</a>.</p>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 OpportunityHub. Open Source & Community Driven Platform.</p>
+    </footer>
+  </div>
+</body>
+</html>
