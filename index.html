@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpportunityHub — Official Documentation & Privacy Center</title>
+  <meta name="description" content="Official documentation, Privacy Policy, and Account Deletion Request portal for the OpportunityHub Android mobile application.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --accent: #38bdf8;
+      --accent-gradient: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
+      --border: #334155;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 2rem 1rem;
+    }
+    .container {
+      max-width: 840px;
+      margin: 0 auto;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 3rem 2.5rem;
+      box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+    }
+    header {
+      margin-bottom: 2.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid var(--border);
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      background: var(--accent-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.75rem;
+    }
+    .tagline {
+      font-size: 1.1rem;
+      color: var(--text-muted);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    @media (max-width: 680px) {
+      .grid { grid-template-columns: 1fr; }
+      .container { padding: 2rem 1.25rem; }
+      h1 { font-size: 1.85rem; }
+    }
+    .card {
+      background: rgba(15, 23, 42, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      border-color: var(--accent);
+    }
+    .card h2 {
+      font-size: 1.35rem;
+      color: var(--accent);
+      margin-bottom: 0.75rem;
+    }
+    .card p {
+      color: #cbd5e1;
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+      flex-grow: 1;
+    }
+    .btn {
+      display: inline-block;
+      text-align: center;
+      background: var(--accent-gradient);
+      color: #0f172a;
+      font-weight: 600;
+      font-size: 0.95rem;
+      padding: 0.75rem 1.25rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: opacity 0.2s;
+    }
+    .btn:hover {
+      opacity: 0.9;
+    }
+    .disclaimer-box {
+      margin-top: 2.5rem;
+      padding: 1.25rem;
+      background: rgba(51, 65, 85, 0.3);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      font-size: 0.875rem;
+      color: var(--text-muted);
+    }
+    .disclaimer-box strong {
+      color: var(--text);
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>OpportunityHub</h1>
+      <p class="tagline">Official Documentation, Privacy Policy & Data Management Portal</p>
+    </header>
+
+    <main>
+      <div class="grid">
+        <div class="card">
+          <div>
+            <h2>Privacy Policy</h2>
+            <p>Read our full data protection practices, details on what data is stored, encryption standards, and why we request device permissions.</p>
+          </div>
+          <a href="privacy_policy.html" class="btn">View Privacy Policy &rarr;</a>
+        </div>
+
+        <div class="card">
+          <div>
+            <h2>Account Deletion</h2>
+            <p>Information on how to permanently delete your OpportunityHub account and all associated personal data via in-app settings or web request.</p>
+          </div>
+          <a href="delete_account.html" class="btn">Account Deletion Page &rarr;</a>
+        </div>
+      </div>
+
+      <div class="disclaimer-box">
+        <strong>Disclaimer:</strong> OpportunityHub is an independent private application for Indian students and early-career job seekers. It is not affiliated with, endorsed by, or sponsored by any government entity or third-party employer. All opportunities link back to their official source websites.
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 OpportunityHub. Developer Contact: <a href="mailto:nandasunil273@gmail.com">nandasunil273@gmail.com</a></p>
+    </footer>
+  </div>
+</body>
+</html>
